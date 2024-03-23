@@ -2,6 +2,19 @@ body {
     background-color: #FCF2D5;
 }
 
+.popup {
+    align-items: center;
+    background-color: #ffdc74;
+    position: fixed;
+    top: 10%;
+    left: 10%; 
+    transform: (-50%, -50%);
+    padding: 50px;
+    border-radius: 40px; 
+    border: 2px; 
+    text-align: center; 
+}
+
 .img-principal {
     position:relative;
     display:flex; 
@@ -157,7 +170,7 @@ body {
     flex-shrink: 0;
 
     font-family: "PT Serif";
-    font-size: 20px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -215,10 +228,6 @@ body {
     line-height: normal;
     margin-top: -60px;
     
-}
-
-.buttons{
- 
 }
 
 .hero {

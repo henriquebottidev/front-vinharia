@@ -1,0 +1,270 @@
+body {
+    background-color: #FCF2D5;
+}
+
+.img-principal {
+    position:relative;
+    display:flex; 
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 80px;
+}
+
+.simbolo {
+    position: absolute;
+    right: 150; /* Posiciona no canto direito */
+    transform: translate(100%, 10%); /* Ajusta para ficar parcialmente fora do container */
+}
+
+.header {
+    display: flex;
+    padding: 20px; 
+    justify-content: center;
+    align-items: center;
+}
+
+.header-logo {
+    display: flex; 
+    align-items: left;
+    justify-content: left;
+}
+
+.logo-name {
+    color: #000;
+    font-family: 'Arizonia', cursive;
+    font-size: 82px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.header-navigation {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    padding-left: 400px;
+    text-align: center;
+}
+
+.header-cta {
+    padding-left: 400px;
+}
+
+.about {
+    padding-right: 70px;
+    color: #000;
+    font-family: "PT Serif";
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.about:hover{
+    padding-right: 70px;
+    color: #50b8c5;
+    cursor: pointer;
+    font-family: "PT Serif";
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.about:active{
+    padding-right: 70px;
+    color: #04434c;
+    cursor: pointer;
+    font-family: "PT Serif";
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.review {
+    padding-right: 70px;
+    color: #000;
+    font-family: "PT Serif";
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.review:hover {
+    padding-right: 70px;
+    color: #50b8c5;
+    cursor: pointer;
+    font-family: "PT Serif";
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.review:active {
+    padding-right: 70px;
+    color: #04434c;
+    font-family: "PT Serif";
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.contact {
+    padding-right: 70px;
+    color: #000;
+    font-family: "PT Serif";
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+.contact:hover {
+    padding-right: 70px;
+    color: #50b8c5;
+    cursor: pointer;
+    font-family: "PT Serif";
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+.contact:active {
+    padding-right: 70px;
+    color: #04434c;
+    font-family: "PT Serif";
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+.button{
+    color:aliceblue;
+    background-color: #217997;
+    border-radius: 40px;
+    border-color: #FCF2D5;
+    width: 202px;
+    height: 59px;
+    flex-shrink: 0;
+
+    font-family: "PT Serif";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.button:hover{
+    color:aliceblue;
+    background-color: #50b8c5;
+    border-radius: 40px;
+    border-color: #FCF2D5;
+    width: 202px;
+    height: 59px;
+    flex-shrink: 0;
+
+    font-family: "PT Serif";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.button:active{
+    color:aliceblue;
+    background-color: #217997;
+    border-radius: 40px;
+    border-color: #FCF2D5;
+    width: 202px;
+    height: 59px;
+    flex-shrink: 0;
+
+    font-family: "PT Serif";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.hero-title {
+    color: #000;
+    width: 717px;
+    font-family: "Gravitas One";
+    font-size: 84px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.64px;
+}
+
+.hero-subtitle {
+    color: #000;
+    font-family: "PT Serif";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: -60px;
+    
+}
+
+.buttons{
+ 
+}
+
+.hero {
+    margin-right: 20px;
+    left: 100px; 
+    bottom: 220px; 
+    position: absolute;
+    z-index: 10; /* Garante que o texto fique acima da imagem */
+    /* Ajuste top e left conforme necessário */
+}
+
+.see-more {
+    position: absolute;
+    z-index: 10;
+    right: 200px; 
+    bottom: 20px; 
+}
+
+.see-title {
+    color: #000;
+     font-family: "Gravitas One";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.84px;
+    margin: 5px;
+}
+
+.see-subtitle {
+    color: #000;
+    font-family: "PT Serif";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.see-link {
+    color: #217997; /* Cor do texto */
+    text-decoration: none; /* Remove o sublinhado padrão dos links */
+    font-weight: bold; /* Deixa o texto em negrito, opcional */
+    cursor: pointer; /* Muda o cursor para indicar que é clicável */
+}
+
+.see-link:hover {
+    text-decoration: underline; /* Adiciona sublinhado ao passar o mouse, opcional */
+    color: #50b8c5; /* Muda a cor ao passar o mouse, opcional */
+}

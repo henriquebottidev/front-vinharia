@@ -20,8 +20,8 @@
             <p class="contact"> Contact </p>
         </div>
 
-        <div class="header-cta">
-            <button class="button"> Loja </button>
+        <div class="header-cta" id="loja">
+            <button onclick="goStore('loja')" class="button"> Loja </button>
         </div>
     </header>
 
@@ -34,9 +34,9 @@
             A melhor loja de vinhos naturais <br> no coração
             de São Paulo. Compre e se divirta.
         </p>
-        <div class="buttons">
+        <div class="buttons" id="loja">
             <button class="button"> Recomendações </button>
-            <button class="button"> Loja </button>
+            <button onclick="goStore('loja')" class="button"> Loja </button>
         </div>
     </div>
 
@@ -51,6 +51,8 @@
         <img src="./img/vinho_home.png" width="495px" height="841px" class="vinho">
         <img src="./img/simbolo.png" width="243px" height="253px" class="simbolo">
     </div>
+
+    <script src="script.js"></script>
 
 </body>
 </html>

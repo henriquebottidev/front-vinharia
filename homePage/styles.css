@@ -277,3 +277,102 @@ body {
     text-decoration: underline; /* Adiciona sublinhado ao passar o mouse, opcional */
     color: #50b8c5; /* Muda a cor ao passar o mouse, opcional */
 }
+
+.header-store {
+    position: relative;
+    margin: -10px -10px -10px -10px;
+    height: 50px;
+    background-color: #C62445;
+}
+
+.logo-store {
+    width: 70px; 
+    position: relative;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+.name-store {
+    width: 120px; 
+    position: relative;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.store-navigation {
+    color:azure; 
+    display: flex; 
+    justify-content: center;
+    margin-top: -50px;
+}
+
+.vinho {
+    margin-right: 40px;
+}
+
+.harmonizacao {
+   margin-right: 40px;
+}
+
+.uvas {
+    margin-right: 40px;
+}
+
+.text {
+    border-radius: 20px;
+    background-color: #C62445;
+    border-color: white;
+    margin-top: 8px; 
+    width: 300px;
+    height: 30px;
+    place-content: blue;
+}
+
+::-webkit-input-placeholder {
+    color: rgb(255, 255, 255, 50%);
+    border: white;
+ }
+
+input {
+    color: white;
+}
+
+ .store-action {
+    color:azure; 
+    display: flex; 
+    justify-content:end;
+    margin-top: -45px;
+    margin-right: 300px;
+ }
+
+ .conta-store{
+    width: 40px; 
+    margin-right: 20px;
+ }
+
+ .conta-store:hover{
+    width: 43px; 
+    margin-right: 20px;
+ }
+
+ .conta-store:active{
+    width: 40px; 
+    margin-right: 20px;
+ }
+
+ .carrinho-store{
+    width: 40px; 
+    margin-left: 20px;
+ }
+
+ .carrinho-store:hover{
+    width: 43px; 
+    margin-left: 20px;
+ }
+
+ .carrinho-store:active{
+    width: 40px; 
+    margin-left: 20px;
+ }
+
+ 

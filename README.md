@@ -15,7 +15,7 @@ obs: os seguintes recursos foram desenvolvidos como exemplo, pois não somos um 
 
 O Projeto Vinharia é construído usando tecnologias de ponta para garantir uma experiência de usuário suave e agradável:
 
-- **Front-end (Desenvolvido)**: HTML5, CSS3, JavaScript
+- **Front-end (Desenvolvido)**: HTML5, CSS3
 - **Back-end (a desenvolver)**: (: Node.js, Ruby on Rails, etc.)
 - **Banco de Dados (a desenvolver)**: (: PostgreSQL, MongoDB, etc.)
 - **Hospedagem (a desenvolver)**: (: AWS, Heroku, etc.)

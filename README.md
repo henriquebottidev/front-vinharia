@@ -1,3 +1,10 @@
+## Equipe
+
+Yuri Lopes | RM: 555522
+Fernanda Navajas | RM: 555080
+José Guilherme | RM: 557274
+Henrique Botti | RM: 556187 
+
 ## Visão Geral
 
 O Vinharia é um projeto inovador que traz uma abordagem moderna e acessível ao mundo dos vinhos, de uma forma mais simples e menos poluída. Através do nosso website, os usuários podem explorar uma vasta gama de vinhos naturais, em diferentes uvas e regiões vinícolas, e até mesmo receber recomendações personalizadas baseadas em suas preferências de sabor.
@@ -20,22 +27,10 @@ O Projeto Vinharia é construído usando tecnologias de ponta para garantir uma 
 - **Banco de Dados (a desenvolver)**: (: PostgreSQL, MongoDB, etc.)
 - **Hospedagem (a desenvolver)**: (: AWS, Heroku, etc.)
 
-## Iniciando
-
-Para começar a usar o projeto, siga estas etapas:
-
-1. Clone o repositório para sua máquina local.
-2. Instale todas as dependências necessárias.
-3. Configure o ambiente de desenvolvimento.
-4. Inicie o servidor local e acesse o projeto através do navegador.
-
 ## Contribuições
 
 Estamos sempre procurando melhorar o Projeto Vinharia e valorizamos as contribuições da comunidade. Se você tem ideias, críticas ou deseja contribuir, sinta-se à vontade para abrir uma issue ou enviar um pull request.
 
-## Equipe
-
-Henrique Botti & Yuri Lopes
 
 ## Contato
 
